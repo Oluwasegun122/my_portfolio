@@ -1,0 +1,21 @@
+{
+    "name": "taileind-project",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+      "build:css": "tailwindcss -i ./src/styles/tailwind.css -o ./src/styles/output.css --watch",
+      "start": "vite",
+      "build": "vite build"
+    },
+    "dependencies": {
+      "prettier": "^3.3.1",
+      "prettier-plugin-tailwindcss": "^0.6.1"
+    },
+    "devDependencies": {
+      "autoprefixer": "^10.4.19",
+      "postcss": "^8.4.38",
+      "tailwindcss": "^3.4.4",
+      "vite": "^5.2.0"
+    }
+  }
+  

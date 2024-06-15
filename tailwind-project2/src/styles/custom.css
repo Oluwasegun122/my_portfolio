@@ -1,0 +1,5 @@
+/* custom.css */
+.custom-div {
+    @apply sm:bg-gradient-to-t sm:from-indigo-200 sm:relative sm:h-1/2
+  }
+  
